@@ -40,7 +40,7 @@ export function SiteHeader() {
       </div>
 
       {open && (
-        <div className="md:hidden border-t border-white/10 bg-black">
+        <div className="md:hidden border-t border-white/10 bg-black absolute w-full">
           <div className="px-4 py-3">
             <MainNav
               items={items}
