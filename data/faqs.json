@@ -1,0 +1,26 @@
+[
+  {
+    "q": "Can you really launch in one week?",
+    "a": "Absolutely. We focus on the pages that move the needle, show progress daily, and hit go by the weekend."
+  },
+  {
+    "q": "What kinds of websites fit a 7‑day sprint?",
+    "a": "Best fits:\n• Launch landing page or homepage with 3–6 sections (hero, proof, features, pricing/CTA, FAQ, contact)\n• Portfolio with 6–12 projects using a simple CMS for fast publishing\n• Product/marketing site with 1–3 pages that tell a clear story\n• Light integrations: analytics, forms, basic calendar embeds, simple CMS, SEO metadata & OG images\n\nNot a fit in one week:\n• Complex web apps or dashboards\n• Large e‑commerce catalogs (a single product checkout or Stripe link is OK; full catalog is not)\n• Heavy custom backends, SSO, multi‑tenant systems\n• Full brand identity from scratch (we can do lightweight direction; deep identity takes longer)\n\nWhat to expect:\n• Senior craft, tasteful motion, accessibility, and performance baked in\n• A focused scope with depth on the primary page(s)\n• A small system (tokens/components) you can extend in future sprints"
+  },
+  {
+    "q": "What should we prep?",
+    "a": "Your goal, audience, must‑have pages, and any brand bits. Messy notes welcome — we’ll tidy the story."
+  },
+  {
+    "q": "Is this friendly on startup budgets?",
+    "a": "Yep. Small senior team + tight process = more wow per dollar. No agency bloat here."
+  },
+  {
+    "q": "CMS and integrations?",
+    "a": "You got it. Analytics, forms, payments, and a CMS so you can publish without pinging engineering."
+  },
+  {
+    "q": "After launch, then what?",
+    "a": "Keep the momentum with monthly sprints, or call us in for quick wins whenever you like."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Launch Week",
+    "price": "USD 2,900",
+    "highlight": false,
+    "tagline": "Your idea, on the internet, looking fabulous",
+    "features": [
+      "One 7‑day sprint",
+      "Landing page or portfolio",
+      "Conversion‑first copy polish",
+      "Essential animations",
+      "SEO + analytics wired"
+    ],
+    "cta": "Book your Launch Week"
+  },
+  {
+    "name": "Growth Week",
+    "price": "USD 4,900",
+    "highlight": true,
+    "tagline": "Most popular — a whole vibe with motion + CMS",
+    "features": [
+      "One 7‑day sprint",
+      "Multi‑section marketing site",
+      "Brand‑level motion",
+      "CMS for blog/case studies",
+      "Performance + A/B ready"
+    ],
+    "cta": "Reserve your Growth Week"
+  },
+  {
+    "name": "Partner",
+    "price": "USD 1,500/mo",
+    "highlight": false,
+    "tagline": "Two quick sprints a month to keep the party going",
+    "features": ["Two sprints per month", "New pages & experiments", "Ongoing optimization", "Priority support"],
+    "cta": "Join the Partner Plan"
+  }
+]

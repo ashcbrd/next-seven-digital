@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Kickoff (30 min)",
+    "desc": "Goals, audience, constraints, success metrics. Align on scope for the week."
+  },
+  {
+    "title": "Daily async updates",
+    "desc": "Design/preview links in Slack with short Looms; we keep decisions moving."
+  },
+  {
+    "title": "Two reviews (30 min each)",
+    "desc": "Mid‑week and pre‑launch reviews to calibrate and confirm release."
+  },
+  {
+    "title": "Post‑launch Loom",
+    "desc": "Walkthrough of editing, analytics, and backlog for next sprint."
+  }
+]

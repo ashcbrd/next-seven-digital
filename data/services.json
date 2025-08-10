@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "Rocket",
+    "title": "Launch‑ready landing pages",
+    "desc": "Crisp storytelling, proof, and motion that turn traffic into signups and sales."
+  },
+  {
+    "icon": "Palette",
+    "title": "Brand‑level portfolios",
+    "desc": "Editorial layouts and subtle interactions that elevate your work — with a CMS to publish fast."
+  },
+  {
+    "icon": "Code2",
+    "title": "Product marketing sites",
+    "desc": "Explain complex value simply with clear copy, diagrams, and conversion‑first UX."
+  },
+  {
+    "icon": "MousePointerClick",
+    "title": "Conversion lifts",
+    "desc": "A/B‑ready sections, analytics wiring, and copy tweaks that move the metric that matters."
+  },
+  {
+    "icon": "BarChart3",
+    "title": "SEO & performance",
+    "desc": "Technical SEO, metadata, and Web Vitals baked in so pages load instantly and rank."
+  },
+  {
+    "icon": "PenTool",
+    "title": "Design sprints",
+    "desc": "New sections and case studies shipped in days — keep momentum after launch."
+  }
+]

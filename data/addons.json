@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "PenSquare",
+    "title": "Copywriting Boost",
+    "desc": "Deep rewrite of narrative, headlines, and objections.",
+    "price": "from $450"
+  },
+  {
+    "icon": "Images",
+    "title": "Illustrations & visuals",
+    "desc": "Custom art direction or lightweight 3D accents.",
+    "price": "from $600"
+  },
+  {
+    "icon": "Database",
+    "title": "CMS: blog & case studies",
+    "desc": "Publish in minutes with a simple content model.",
+    "price": "from $500"
+  },
+  {
+    "icon": "Languages",
+    "title": "Multi‑language",
+    "desc": "Localized content and language switcher.",
+    "price": "from $400"
+  },
+  {
+    "icon": "CalendarClock",
+    "title": "Bookings & CRM",
+    "desc": "Calendly + HubSpot/CRM wiring with events.",
+    "price": "from $300"
+  }
+]

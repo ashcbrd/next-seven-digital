@@ -1,0 +1,8 @@
+[
+  { "href": "/", "label": "Home" },
+  { "href": "/about", "label": "About Us" },
+  { "href": "/how-it-works", "label": "How It Works" },
+  { "href": "/portfolio", "label": "Portfolio" },
+  { "href": "/pricing", "label": "Pricing" },
+  { "href": "/faq", "label": "FAQ" }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "day": "Day 1",
+    "title": "Strategy, script, and structure",
+    "icon": "PencilRuler",
+    "owner": "Both",
+    "summary": "We align on audience, value prop, and outcomes. Then we script the narrative, sitemap, and section outline.",
+    "outputs": [
+      "Site map and prioritized page list",
+      "Hero narrative and CTA strategy",
+      "Wireframes for key sections",
+      "Asset checklist (logos, screenshots, testimonials)"
+    ]
+  },
+  {
+    "day": "Day 2",
+    "title": "Design direction and system",
+    "icon": "Palette",
+    "owner": "Design",
+    "summary": "We define the visual language—type scale, color, grids, and motion DNA—so every section feels cohesive.",
+    "outputs": [
+      "Type scale and color tokens",
+      "Grid and spacing rules",
+      "Component kit (buttons, cards, nav, footer)",
+      "Motion references and interaction notes"
+    ]
+  },
+  {
+    "day": "Day 3",
+    "title": "Key pages — round 1",
+    "icon": "Layout",
+    "owner": "Both",
+    "summary": "Design and build the highest‑impact pages in parallel: hero, proof, product storytelling, and CTA surfaces.",
+    "outputs": ["Responsive hero and value prop", "Proof section (logos, testimonials, metrics)", "Feature stories"]
+  },
+  {
+    "day": "Day 4",
+    "title": "Key pages — round 2",
+    "icon": "FileText",
+    "owner": "Both",
+    "summary": "Finish core pages and long‑form sections. Wire real copy. Start CMS and content model if needed.",
+    "outputs": ["Pricing or plan comparison", "Deep dive or case study structure", "CMS schema (if included)"]
+  },
+  {
+    "day": "Day 5",
+    "title": "Motion, QA, and polish",
+    "icon": "Sparkles",
+    "owner": "Both",
+    "summary": "We refine micro‑interactions, accessibility, keyboard flows, and states. Performance budget enforced.",
+    "outputs": ["Framer Motion interactions", "A11y pass (labels, contrast, focus)", "Lighthouse / Web Vitals checks"]
+  },
+  {
+    "day": "Day 6",
+    "title": "Integrations and content",
+    "icon": "Code2",
+    "owner": "Engineering",
+    "summary": "Analytics, forms, and SEO metadata wired. Add real content, images, and domain/OG card previews.",
+    "outputs": ["Analytics + Speed Insights", "Forms/opt‑ins wired", "SEO metadata and OG images"]
+  },
+  {
+    "day": "Day 7",
+    "title": "Launch and handoff",
+    "icon": "Rocket",
+    "owner": "Both",
+    "summary": "Go‑live on Vercel, DNS, and cache warmup. Handoff with loom walkthrough, edit guide, and next‑sprint plan.",
+    "outputs": ["Production deploy on Vercel", "Edit guide + Loom", "Next‑sprint backlog"]
+  }
+]

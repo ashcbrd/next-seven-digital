@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "fintech-dashboard",
+    "title": "Fintech Dashboard",
+    "desc": "Complex product, simple story. We clarified the value prop and boosted activation.",
+    "href": "/portfolio/fintech-dashboard",
+    "img": "/fintech-dashboard-ui.png",
+    "isSelectedWork": true
+  },
+  {
+    "slug": "ai-portfolio",
+    "title": "AI Portfolio",
+    "desc": "A bold visual system with motion that highlights recent research and projects.",
+    "href": "/portfolio/ai-portfolio",
+    "img": "/ai-portfolio-site.png",
+    "isSelectedWork": true
+  },
+  {
+    "slug": "saas-landing",
+    "title": "SaaS Landing",
+    "desc": "Conversion‑first hero, proof, and pricing—built to scale across campaigns.",
+    "href": "/portfolio/saas-landing",
+    "img": "/saas-landing-page.png",
+    "isSelectedWork": true
+  }
+]

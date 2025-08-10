@@ -1,0 +1,233 @@
+// components/hero.tsx
+import React from 'react';
+
+const Hero = () => {
+  return (
+    <div className="hero">
+      <div className="hero-chips">
+        <span className="chip">Launch in 7 days</span>
+        <span className="chip">Senior team</span>
+        <span className="chip">Fixed scope</span>
+      </div>
+      <h1>
+        Ship a premium website in <span className="text-orange-500">7 days</span> — without the slow burn.
+      </h1>
+      <p>
+        We design, write, and build high‑converting landing pages, portfolios, and product sites in one focused week. Senior talent, sharp messaging, and motion that makes visitors say “yes.”
+      </p>
+      {/* /** rest of code here **/ */}
+    </div>
+  );
+};
+
+export default Hero;
+
+// components/footer-cta.tsx
+import React from 'react';
+
+const FooterCta = ({ disableLinks }) => {
+  return (
+    <div className="footer-cta">
+      <h2>Book your build week.</h2>
+      <p>
+        Pick a start date and we’ll script the story, design the system, and launch a conversion‑ready site in 7 days.
+      </p>
+      {disableLinks && (
+        <div className="fallback-box">
+          Email us: hello@nextsevendigital.com — tell us your goal and ideal launch date.
+        </div>
+      )}
+      {/* /** rest of code here **/ */}
+    </div>
+  );
+};
+
+export default FooterCta;
+
+// app/about/page.tsx
+import React from 'react';
+
+const AboutPage = () => {
+  return (
+    <div className="about-page">
+      <p>
+        We help founders and marketing teams move fast without trading away quality. Every engagement is led by senior designers and engineers—no layers, no handoffs, just momentum.
+      </p>
+      {/* /** rest of code here **/ */}
+    </div>
+  );
+};
+
+export default AboutPage;
+
+// components/about.tsx
+import React from 'react';
+
+const About = () => {
+  return (
+    <div className="about">
+      <h2>Small team. Big outcomes.</h2>
+      <p>
+        We’re a compact, senior studio built for speed and clarity. We cut the ceremony, focus on what moves metrics, and ship brand‑level work that stands up to scale.
+      </p>
+      {/* /** rest of code here **/ */}
+    </div>
+  );
+};
+
+export default About;
+
+// components/founder-message.tsx
+import React from 'react';
+
+const FounderMessage = () => {
+  return (
+    <div className="founder-message">
+      <p>
+        I started Next Seven Digital because ambitious teams deserve a site that sells—without waiting months. We keep the team senior and the loop tight so decisions are fast and quality stays high. Bring the vision; we’ll craft the narrative, design the system, and launch a site you’re proud to drive traffic to—this week.
+      </p>
+      {/* /** rest of code here **/ */}
+    </div>
+  );
+};
+
+export default FounderMessage;
+
+// app/how-it-works/page.tsx
+import React from 'react';
+
+const HowItWorksPage = () => {
+  return (
+    <div className="how-it-works-page">
+      <p>
+        One focused week with design and engineering in parallel. Here’s what happens each day and the exact deliverables you take into production.
+      </p>
+      {/* /** rest of code here **/ */}
+    </div>
+  );
+};
+
+export default HowItWorksPage;
+
+// components/how-it-works-detailed.tsx
+import React from 'react';
+
+const HowItWorksDetailed = () => {
+  return (
+    <div className="how-it-works-detailed">
+      <p>
+        Design and engineering move together from day one. Fewer handoffs, tighter feedback, higher quality—live in a week.
+      </p>
+      {/* /** rest of code here **/ */}
+    </div>
+  );
+};
+
+export default HowItWorksDetailed;
+
+// data/services.json
+[
+  {
+    "icon": "Rocket",
+    "title": "Launch‑ready landing pages",
+    "desc": "Positioning, proof, and a clear story that turns traffic into trials, demos, and sales."
+  },
+  {
+    "icon": "Palette",
+    "title": "Brand‑level portfolios",
+    "desc": "Editorial layouts and motion that elevate your craft—and a CMS so you can publish fast."
+  },
+  {
+    "icon": "Code2",
+    "title": "Product marketing sites",
+    "desc": "Explain complex value simply with crisp visuals, diagrams, and conversion‑first UX."
+  },
+  {
+    "icon": "MousePointerClick",
+    "title": "Conversion optimization",
+    "desc": "A/B‑ready sections, analytics wiring, and copy tweaks that lift signups without a rebuild."
+  },
+  {
+    "icon": "BarChart3",
+    "title": "SEO & performance",
+    "desc": "Technical SEO, metadata, and Web Vitals baked in so pages load instantly and rank."
+  },
+  {
+    "icon": "PenTool",
+    "title": "Design sprints",
+    "desc": "New sections and case studies shipped in days—keep momentum after launch."
+  }
+]
+
+// data/why-points.json
+[
+  {
+    "icon": "Timer",
+    "title": "One focused week",
+    "text": "A proven 7‑day cadence. We ship the highest‑impact pages first, then iterate."
+  },
+  {
+    "icon": "Trophy",
+    "title": "Senior‑only team",
+    "text": "Direct access to the people doing the work—no handoffs, no junior layers."
+  },
+  {
+    "icon": "Gauge",
+    "title": "Conversion‑first",
+    "text": "Messaging and UX patterns that shorten time‑to‑value and drive action."
+  },
+  {
+    "icon": "Zap",
+    "title": "Fast and robust",
+    "text": "Next.js on Vercel with accessibility, SEO, and performance as non‑negotiables."
+  },
+  {
+    "icon": "ShieldCheck",
+    "title": "Transparent pricing",
+    "text": "Fixed scope for the week and simple options for ongoing sprints—no surprises."
+  },
+  {
+    "icon": "Handshake",
+    "title": "Partner mentality",
+    "text": "We stay post‑launch to test, learn, and keep the momentum going."
+  }
+]
+
+// data/pricing.json
+[
+  {
+    "name": "Launch Week",
+    "price": "USD 4,900",
+    "highlight": false,
+    "features": [
+      "One 7‑day sprint",
+      "Landing page or portfolio",
+      "Conversion‑first copy polish",
+      "Essential animations",
+      "SEO + analytics wired"
+    ]
+  },
+  {
+    "name": "Growth Week",
+    "price": "USD 7,900",
+    "highlight": true,
+    "features": [
+      "One 7‑day sprint",
+      "Multi‑section marketing site",
+      "Brand‑level motion",
+      "CMS for blog/case studies",
+      "Performance + A/B ready"
+    ]
+  },
+  {
+    "name": "Partner",
+    "price": "USD 3,000/mo",
+    "highlight": false,
+    "features": [
+      "Two sprints per month",
+      "New pages & experiments",
+      "Ongoing optimization",
+      "Priority support"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "Timer",
+    "title": "Seven days, seriously",
+    "desc": "A tight, proven cadence. Decisions daily. Launch by the weekend without the drag."
+  },
+  {
+    "icon": "Rocket",
+    "title": "Senior‑only squad",
+    "desc": "You work with the people doing the work. Faster answers, better outcomes."
+  },
+  {
+    "icon": "Sparkles",
+    "title": "Playful polish",
+    "desc": "Tasteful motion and crisp storytelling that make your brand feel alive."
+  },
+  {
+    "icon": "Gauge",
+    "title": "Conversion brain",
+    "desc": "Layouts, copy, and flows that gently guide visitors to take action."
+  },
+  {
+    "icon": "ShieldCheck",
+    "title": "Built right",
+    "desc": "Accessibility, SEO, and performance baked in — not bolted on."
+  },
+  {
+    "icon": "Wand2",
+    "title": "Friendly pricing",
+    "desc": "Compact studio = less overhead. You pay for outcomes, not ceremony."
+  }
+]

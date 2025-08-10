@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "CheckCircle2",
+    "title": "Senior team, end‑to‑end",
+    "desc": "Design + engineering in parallel—no handoffs, no junior layers."
+  },
+  {
+    "icon": "Sparkles",
+    "title": "Taste + motion",
+    "desc": "Brand‑level polish and micro‑interactions that make your product shine."
+  },
+  {
+    "icon": "Gauge",
+    "title": "Conversion‑first UX",
+    "desc": "Messaging, structure, and patterns tuned to drive demos, signups, and sales."
+  },
+  {
+    "icon": "ShieldCheck",
+    "title": "Accessibility & SEO",
+    "desc": "Labels, contrast, keyboard flows, metadata, and OG images included."
+  },
+  {
+    "icon": "BarChart3",
+    "title": "Analytics wired",
+    "desc": "Vercel Analytics + Speed Insights with clean events you can trust."
+  },
+  {
+    "icon": "ScrollText",
+    "title": "Edit guide & Loom",
+    "desc": "Short videos + notes so your team can ship updates without us."
+  }
+]

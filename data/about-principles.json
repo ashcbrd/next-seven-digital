@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "Target",
+    "title": "Clarity over clutter",
+    "desc": "Every section has a job. We remove the rest so your story lands fast and clean."
+  },
+  {
+    "icon": "Ruler",
+    "title": "Systems, not one‑offs",
+    "desc": "Tokens and components power consistent pages you can scale in hours—not weeks."
+  },
+  {
+    "icon": "Rocket",
+    "title": "Craft at startup speed",
+    "desc": "Senior design and engineering in parallel to ship premium results in one week."
+  },
+  {
+    "icon": "BarChart3",
+    "title": "Outcomes first",
+    "desc": "We optimize for signups, demos, and trials—not page count or artifact volume."
+  },
+  {
+    "icon": "HeartHandshake",
+    "title": "Partnership mindset",
+    "desc": "We work like an extension of your team and stay post‑launch to iterate."
+  },
+  {
+    "icon": "Sparkles",
+    "title": "Taste + performance",
+    "desc": "Brand‑level polish with accessibility and web vitals baked in by default."
+  }
+]

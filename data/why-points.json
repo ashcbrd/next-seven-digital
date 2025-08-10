@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "Timer",
+    "title": "One focused week",
+    "text": "A proven 7‑day cadence. We ship the highest‑impact pages first."
+  },
+  {
+    "icon": "Trophy",
+    "title": "Senior‑only team",
+    "text": "Work directly with the people doing the work — no handoffs, no drag."
+  },
+  {
+    "icon": "Gauge",
+    "title": "Conversion‑first",
+    "text": "Messaging and patterns tuned to drive demos, signups, and sales."
+  },
+  {
+    "icon": "Zap",
+    "title": "Fast by default",
+    "text": "Next.js on Vercel with accessibility and performance built in."
+  },
+  {
+    "icon": "ShieldCheck",
+    "title": "Transparent pricing",
+    "text": "Fixed scope for the week and simple options to continue — no surprises."
+  },
+  {
+    "icon": "Handshake",
+    "title": "Partner mindset",
+    "text": "We stay post‑launch to test, learn, and keep momentum."
+  }
+]

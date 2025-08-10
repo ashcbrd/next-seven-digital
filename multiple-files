@@ -1,0 +1,16 @@
+// components/services.tsx
+<CardTitle className="text-lg text-white">{s.title}</CardTitle>
+
+// components/pricing.tsx
+<CardHeader>
+  <CardTitle className="flex items-baseline justify-between text-white">
+    <span>{p.name}</span>
+    <span className="text-orange-500 text-xl font-semibold">{p.price}</span>
+  </CardTitle>
+</CardHeader>
+
+// components/how-it-works-detailed.tsx
+<CardTitle className="text-lg text-white">{day.title}</CardTitle>
+
+// components/process-sections.tsx
+<CardTitle className="text-base text-white">{it.title}</CardTitle>

@@ -1,0 +1,9 @@
+[
+  { "day": "Mon (D1)", "items": ["Kickoff", "Narrative + sitemap", "Wireframes"] },
+  { "day": "Tue (D2)", "items": ["Visual direction", "System tokens", "Components"] },
+  { "day": "Wed (D3)", "items": ["Key pages R1", "Build + content", "Async review"] },
+  { "day": "Thu (D4)", "items": ["Key pages R2", "CMS model", "Async review"] },
+  { "day": "Fri (D5)", "items": ["Motion & QA", "A11y & perf pass"] },
+  { "day": "Sat (D6)", "items": ["Analytics/SEO", "Forms/integrations", "Content load"] },
+  { "day": "Sun (D7)", "items": ["Final review", "Launch on Vercel", "Handoff"] }
+]

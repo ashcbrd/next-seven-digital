@@ -1,0 +1,8 @@
+[
+  { "title": "Live site", "desc": "Production deployment on Vercel with domain and SSL." },
+  { "title": "Design system", "desc": "Type, color tokens, components, and motion guidelines." },
+  { "title": "CMS (optional)", "desc": "Blog/case studies with content model and editor docs." },
+  { "title": "Analytics & SEO", "desc": "Vercel Analytics, Speed Insights, metadata, and OG cards." },
+  { "title": "Source code", "desc": "Private Git repo with clear README and scripts." },
+  { "title": "Edit guide", "desc": "Loom walkthrough, content editing guide, and next‑sprint plan." }
+]

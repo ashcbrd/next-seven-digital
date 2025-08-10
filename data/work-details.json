@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "fintech-dashboard",
+    "title": "Fintech Dashboard",
+    "company": "VoltPay",
+    "image": "/fintech-dashboard-ui.png",
+    "projectLink": "https://example.com/voltpay",
+    "summary": "We turned a dense fintech product into a story people understand in one scroll. Cleaner narrative, fewer decisions, stronger trial starts.",
+    "whyDesign": "Most fintech sites drown visitors in features. We flipped the script with an arc that moves from pain → proof → payoff. Refined type, a focused color system, and restrained motion reduce cognitive load while making the product feel premium and safe.",
+    "layout": "An editorial hero sets the promise, followed by a proof bar, guided product sections with diagrams, and a conversion‑ready footer. Every module is reusable so the team can mix and match for future launches and campaigns.",
+    "development": "Built with Next.js Server Components on Vercel for speed and reliability. We shipped accessible UI, image optimization, and tidy analytics events. Framer Motion adds micro‑interactions that feel delightful without hurting performance.",
+    "benefits": [
+      "Visitors grasp the value in seconds — not minutes.",
+      "Lower bounce rate and a lift in trial starts.",
+      "A composable section library that accelerates future pages."
+    ],
+    "services": ["Strategy", "UX Writing", "Design", "Frontend"],
+    "stack": ["Next.js", "Tailwind", "Framer Motion", "Vercel"],
+    "testimonialName": "Ava Chen"
+  },
+  {
+    "slug": "ai-portfolio",
+    "title": "AI Research Portfolio",
+    "company": "Drift Research",
+    "image": "/ai-portfolio-site.png",
+    "projectLink": "https://example.com/drift-research",
+    "summary": "A bold, editorial portfolio that makes complex AI work feel human — clear, credible, and easy to browse.",
+    "whyDesign": "We emphasized rhythm and restraint: generous whitespace, a tight palette, and confident hierarchy so the work takes center stage. Subtle motion hints at depth, never distraction.",
+    "layout": "Card‑based case studies, article templates for long‑form, and a flexible system for experiments/logs. The structure scales gracefully as new research ships.",
+    "development": "Hybrid static + dynamic rendering with RSC, image optimization, and code‑split routes. Content surfaces are MDX‑ready so the team can publish without a designer on call.",
+    "benefits": [
+      "Instant credibility for partners and candidates.",
+      "Publishing is simple — new work slots in without breaking the look.",
+      "Excellent Core Web Vitals and Lighthouse scores."
+    ],
+    "services": ["Brand System", "Design", "Frontend"],
+    "stack": ["Next.js", "Tailwind", "MDX", "Vercel"],
+    "testimonialName": null
+  },
+  {
+    "slug": "saas-landing",
+    "title": "SaaS Marketing Site",
+    "company": "Nova Cloud",
+    "image": "/saas-landing-page.png",
+    "projectLink": "https://example.com/nova-cloud",
+    "summary": "A conversion‑first site that strips away the fluff. Clear promise, proof that matters, and CTAs that invite action.",
+    "whyDesign": "We cut the message to the essentials and backed it with real outcomes. Motion is used sparingly to guide focus. The result feels energetic and trustworthy — the right kind of ‘wow’.",
+    "layout": "Proof‑driven hero, feature rows with iconography, results carousel, pricing that’s painfully clear, and a keep‑scrolling footer with a single job: convert.",
+    "development": "Server Components, fast image/CDN strategy, and A/B‑ready events. Simple, reliable, and easy to iterate when marketing wants to test new angles.",
+    "benefits": [
+      "More qualified signups with shorter copy.",
+      "Reusable blocks for rapid experimentation across campaigns.",
+      "A foundation that’s easy to extend as the product evolves."
+    ],
+    "services": ["Strategy", "Design", "Frontend"],
+    "stack": ["Next.js", "Tailwind", "Framer Motion", "Vercel"],
+    "testimonialName": "Jon Patel"
+  }
+]
