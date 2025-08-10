@@ -14,8 +14,12 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur supports-[backdrop-filter]:bg-black/50">
       <div className="container mx-auto px-4 h-16 flex items-center">
-        <Link href="/" className="font-semibold tracking-tight text-lg">
-          <span className="text-orange-500">*</span> Next Seven Digital
+        <Link
+          href="/"
+          className="font-semibold tracking-tight text-lg flex items-center gap-x-2"
+        >
+          <img src="/logo.png" alt="Next Seven Digital" className="w-8 h-8" />{" "}
+          Next Seven Digital
         </Link>
 
         <div className="ml-auto flex items-center gap-4">

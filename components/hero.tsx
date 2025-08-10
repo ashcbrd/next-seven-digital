@@ -1,15 +1,15 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { Sparkles } from "lucide-react"
-import { motion, useScroll, useTransform } from "framer-motion"
-import Link from "next/link"
-import marqueeItems from "@/data/marquee.json"
+import { Button } from "@/components/ui/button";
+import { Sparkles } from "lucide-react";
+import { motion, useScroll, useTransform } from "framer-motion";
+import Link from "next/link";
+import marqueeItems from "@/data/marquee.json";
 
 export function Hero({ showCtas = true }: { showCtas?: boolean }) {
-  const { scrollY } = useScroll()
-  const y = useTransform(scrollY, [0, 300], [0, 60])
-  const y2 = useTransform(scrollY, [0, 300], [0, -60])
+  const { scrollY } = useScroll();
+  const y = useTransform(scrollY, [0, 300], [0, 60]);
+  const y2 = useTransform(scrollY, [0, 300], [0, -60]);
 
   return (
     <div className="relative overflow-hidden">
@@ -24,7 +24,7 @@ export function Hero({ showCtas = true }: { showCtas?: boolean }) {
         style={{ y: y2 }}
       />
 
-      <div className="container mx-auto px-4 py-24 md:py-36">
+      <div className="container mx-auto px-4 py-24 md:py-36 relative">
         <motion.div
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
@@ -41,7 +41,8 @@ export function Hero({ showCtas = true }: { showCtas?: boolean }) {
           transition={{ delay: 0.08, duration: 0.7, ease: "easeOut" }}
           className="mt-6 text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.05]"
         >
-          Build a premium website in <span className="text-orange-500">one week</span>.
+          Build a premium website in{" "}
+          <span className="text-orange-500">one week</span>.
         </motion.h1>
 
         <motion.p
@@ -50,8 +51,9 @@ export function Hero({ showCtas = true }: { showCtas?: boolean }) {
           transition={{ delay: 0.16, duration: 0.7, ease: "easeOut" }}
           className="mt-4 max-w-2xl text-base md:text-xl text-white/70"
         >
-          We plan, write, design, and build conversion‑ready landing pages, portfolios, and product sites in a focused
-          7‑day sprint. Small senior team. Clear process. Results you can measure.
+          We plan, write, design, and build conversion‑ready landing pages,
+          portfolios, and product sites in a focused 7‑day sprint. Small senior
+          team. Clear process. Results you can measure.
         </motion.p>
 
         {showCtas && (
@@ -82,11 +84,11 @@ export function Hero({ showCtas = true }: { showCtas?: boolean }) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 function Marquee() {
-  const items: string[] = marqueeItems
+  const items: string[] = marqueeItems;
   return (
     <div className="relative overflow-hidden py-4">
       <div className="flex gap-10 whitespace-nowrap text-white/60 text-sm font-medium marquee">
@@ -98,9 +100,18 @@ function Marquee() {
         ))}
       </div>
       <style jsx>{`
-        .marquee { animation: marquee 22s linear infinite; }
-        @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+        .marquee {
+          animation: marquee 22s linear infinite;
+        }
+        @keyframes marquee {
+          from {
+            transform: translateX(0);
+          }
+          to {
+            transform: translateX(-50%);
+          }
+        }
       `}</style>
     </div>
-  )
+  );
 }
